@@ -230,3 +230,55 @@ h2::after{
     color: #7b818c;
     text-align: center;
 }
+
+/* Parte 3 */
+.row{
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 0 3em 0;
+}
+.column-6{
+    position: relative;
+    width: 49.5%;
+    display: inline-block;
+}
+.row1{
+    position: relative;
+    width: 100%;
+    padding: 5em 0 3em 0;
+}
+.row1-h2{
+    text-align: center;
+    color: #7b818c;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+.row1-h3{
+    text-align: center;
+    color: #7b818c;
+    font-weight: 500;
+    opacity: 0.6;
+    font-size: 0.9em;
+}
+.row2{
+    
+}
+.row2 > .row2-p{
+    text-align: center;
+    margin: 1em 0 3em 0;
+    color: #7b818c;
+}
+.row2 > .row2-button{
+    text-align: center;
+}
+.row2 > .row2-button > a{
+    text-transform: uppercase;
+}
+.row2 > .row2-button > .button-secondary{
+    background-color: #32343a;
+}
+.button-primary{
+    background-color: rgb(55, 126, 167) i !important;
+}
