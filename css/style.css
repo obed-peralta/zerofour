@@ -279,6 +279,108 @@ h2::after{
 .row2 > .row2-button > .button-secondary{
     background-color: #32343a;
 }
-.button-primary{
-    background-color: rgb(55, 126, 167) i !important;
+
+/* Parte 4 */
+
+.column{
+    display: inline-block;
+}
+#recent-post{
+    width: 65%;
+}
+#spotlight{
+    width: 34%;
+}
+#h2-recent-post{
+    text-transform: uppercase;
+    color: #7b818c;
+    margin-left: 3em;
+}
+#h2-recent-post > h2{
+    display: inline-block;
+    margin-left: 1em;
+    font-size: 1.5em;
+}
+#h2-spotlight{
+    text-transform: uppercase;
+}
+#title-spotlight{
+    text-transform: uppercase;
+}
+#subtitle-spotlight{
+    text-transform: uppercase;
+}
+
+/* recent post */
+.posts{
+    position: relative;
+    width: 95%;
+    padding: 1em;
+    margin: 0 auto;
+}
+.post{
+    border-bottom: solid 2px rgba(50, 52, 58,0.25);
+}
+.post-image{
+    display: inline-block;
+    position: relative;
+    width: 39%;
+}
+.post-image > img{
+    position: relative;
+    width: 100%;
+    border-radius: 0.5em;
+}
+.body-post{
+    position: relative;
+    width: 58%;
+    display: inline-block;
+    margin-left: 0.5em;
+}
+.date-post{
+    color: rgba(50, 52, 58, 0.4)
+}
+.title-post{
+    color: rgba(50, 52, 58, 1);
+    text-transform: uppercase;
+}
+.paragraph-post{
+    color: rgba(50, 52, 58, 0.75)
+}
+#last-post{
+    border-bottom: none;
+}
+
+/* spotlight */
+#h2-spotlight{
+    margin-bottom: 0em;
+    color: #7b818c;
+}
+#h2-spotlight > h2{
+    display: inline-block;
+    margin-left: 1em;
+}
+#title-spotlight{
+    color: rgba(50, 52, 58, 1);
+    text-transform: uppercase;
+    font-size: 1.05em;
+}
+#subtitle-spotlight{
+    color: rgba(50, 52, 58, 0.8);
+    text-transform: uppercase;
+}
+#paragraph-spotlight{
+    color: rgba(50, 52, 58, 0.7)
+}
+#image-spotlight{
+    position: relative;
+    width: 100%;
+}
+#image-spotlight > img{
+    position: relative;
+    width: 100%;
+    border-radius: 0.5em;
+}
+#button-spotlight > .button-secondary{
+    background-color: #32343a;
 }
