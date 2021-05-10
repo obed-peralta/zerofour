@@ -1,0 +1,129 @@
+#section-header{
+    background-image: none;
+    background-color: gray;
+}
+#btnMenu{
+    display: block;
+    margin-left: 80%;
+    margin-top: 2.5%;
+    background-color: #32343a;
+    color: #FFF;
+    font-size: 0.7em;
+}
+nav{
+    display: none;
+    margin-right: 30%;
+    position: relative;
+    width: 100%;
+}
+nav > ul > li{
+    list-style: none;
+    float: unset;
+    padding: 0 0.8em 0 0.8em;
+}
+#texto-boton {
+    width: 100%;
+    margin: 0;
+    letter-spacing: 0;
+}
+#texto-boton > p{
+    font-size: 1em;
+    width: 100%;
+    margin-right: 0;
+    float: none;
+    text-align: center;
+}
+
+.boton{
+    font-size: 1em;
+    display: block;
+    text-align: center;
+}
+#body-heading{
+    padding: 1em 0 1em 0;
+}
+.card{
+    display: block;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#footer-heading{
+    font-size: 1.5em;
+}
+
+.row > .column-6{
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row > .column{
+    display: block;
+}
+#recent-post{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+#h2-recent-post{
+    
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.post-image{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.body-post{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.body-post{
+    text-align: center;
+}
+
+#spotlight{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+#image-spotlight{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+#container-footer{
+    text-align: center;
+}
+
+#container-footer > #part-1 > #first-column {
+    display: block;
+    width: 90%;
+}
+#container-footer > #part-1 > #second-column {
+    display: block;
+    width: 90%;
+    position: relative;
+}
+#container-footer > #part-1 > #third-column{
+    display: block;
+    width: 90%;
+    position: relative;
+    margin-left: 0;
+    margin: 0 auto;
+}
+#third-column > .first-row {
+    text-align: center;
+}
+#third-column > .second-row > #tables > table{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
