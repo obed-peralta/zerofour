@@ -13,7 +13,7 @@ function mostrarNav(){
     var nav = document.getElementsByTagName('nav');
     var header = document.getElementsByTagName('header');
     nav[0].style.display = 'block';
-    header[0].style.height = '10em';
+    header[0].style.height = '25em';
 }
 function ocultarNav(){
     var nav = document.getElementsByTagName('nav');
